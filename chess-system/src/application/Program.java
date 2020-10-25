@@ -1,10 +1,14 @@
 package application;
 
+import bordergame.Board;
+import bordergame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
 
-    System.out.println("hellow world");
+    Board board = new Board(10, 10);
+    
 
 	}
 
